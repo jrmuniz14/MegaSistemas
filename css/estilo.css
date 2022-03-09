@@ -1,0 +1,163 @@
+#home{
+	background: #007bff;
+	color: white;
+}
+
+.espaco{
+
+	margin-top:95px;
+}
+
+#texto-principal{
+	font-size: 1.15em;
+}
+
+.caixa{
+	border-top: 1px solid #e5e5e5;
+	margin-top: 100px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#nav-principal ul li a{
+	color: white;
+}
+
+#nav-top-bold li a{
+	font-weight: bold;
+}
+
+#nav-top-bold li a:hover{
+	border-bottom: 2px solid white;
+}
+
+#nav-top-button{
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.btn-exp{
+	
+	font-weight: bold;
+	color: white;
+}
+
+#titulo-secundario{
+	margin-bottom: 75px;
+}
+
+/*#titulo-secundario::before{
+
+	content: "";
+
+	height: 2px;
+	display: block;
+	background: gray;
+	margin: 0 auto;
+}*/
+
+#segmentos p{
+
+	font-size: 1.1em;
+	color: #17a2b8!important;
+
+	padding-top: 20px;
+}
+
+#jr{
+	
+	text-decoration: none;
+	font-weight: bold;
+	color:white;
+	font-size: 11px;
+}
+
+#jr:hover{
+
+	border-bottom: 1px solid white;
+}
+
+/*------------media query--------------*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	.responsive{
+		text-align: center;
+	}
+
+	.caixa{
+		margin-top: 30px;
+	}
+
+	.logo-sm{
+		width: 130px
+	}
+
+	.space-especial{
+		margin-top: 40px;
+	}
+
+	#nav-top-bold li a:hover{
+		border:none;
+	}
+
+	#nav-top-button{
+		margin-left: 0px;
+	}
+
+	.space{
+		margin-bottom: 20px;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	.responsive{
+		text-align: center;
+	}
+
+	.caixa{
+		margin-top: 30px;
+	}
+
+	.logo-sm{
+		width: 130px
+	}
+
+	.space-especial{
+		margin-top: 40px;
+	}
+
+	#nav-top-bold li a:hover{
+		border:none;
+	}
+
+	#nav-top-button{
+		margin-left: 0px;
+	}
+
+	.space{
+		margin-bottom: 20px;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  
+
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+
+	
+}
